@@ -36,8 +36,8 @@ Flujo de una petición: `ruta (Swagger) → controller (valida) → service (BD)
 ## Configuración del proyecto
 
 ```bash
-mkdir mi-express # Crea la carpeta para el proyecto
-cd mi-express # Entra a la carpeta
+mkdir web11 # Crea la carpeta para el proyecto
+cd web11 # Entra a la carpeta
 npm init -y # Inicializa el proyecto
 npm install express dotenv mysql2 bcryptjs jsonwebtoken swagger-jsdoc cors swagger-ui-express validator # Instala las dependencias
 npm install nodemon --save-dev # Instala nodemon como dependencia de desarrollo
